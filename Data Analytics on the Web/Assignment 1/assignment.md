@@ -2,7 +2,7 @@ This is the assignment the data for assignment 1 in the UHI Data Science Short C
 
 For this a hypothesis is made that *"Weather can have adverse affects on driving conditions."* 
 
-This assignment will attempt to prove this by making a query to Google's Big Query and requesting the data for New York City Collisions and data from the Weather Station in Central Park.
+This assignment will attempt to prove this by making a query to Google's Big Query and requesting the data for New York City Collisions and data from the Weather Station in Central Park, New York City.
 
 The `.csv` in this folder is the compiled data from 2012 to (current day, November 18th) 2020.
 
