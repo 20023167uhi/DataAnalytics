@@ -6,5 +6,7 @@ This assignment will attempt to prove this by making a query to Google's Big Que
 
 The `.csv` in this folder is the compiled data from 2012 to (current day, November 18th) 2020.
 
+The `.sql` file contains the query used to compile the `.csv` file.
+
 From here the data will be looked at before prepared before being processed through Linear Regression and Neural Network analysis.
 
