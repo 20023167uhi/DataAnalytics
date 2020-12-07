@@ -1,0 +1,118 @@
+---
+title: "Tutorial 4 Dates and Strings"
+author: "Tom Blackwood"
+date: "23/11/2020"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE, fig.width=10, fig.height=5)
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+```
+
+## Exercise 1 - Reading `nair_raw.tsv`
+
+My files for this course are kept in a folder named `~/intro_to_r/`. The structure for where this markdown file is kept is in `~/intro_to_R/tutorials/tutorial */` and my data is held in `~/intro_to_R/data/`. The data used is supplied from the data bundle available for the course.
+
+```{r imports}
+tsv_data <- read_tsv("../../data/nairn_raw.tsv")
+head(tsv_data)
+summary(tsv_data)
+
+```
+
+## Exercise 2 - Cleaning `nair_raw.tsv`
+In the Head and the Summary, some columns that should be integers or doubles are marked with `chr` implying they are characters or string data instead.
+
+```{r looking_at_data}
+tsv_data %>%
+  group_by(`tmax (degC)`) %>%
+  count()
+tsv_data %>%
+  group_by(`tmin (degC)`) %>%
+  count()
+tsv_data %>%
+  group_by(`af (days)`) %>%
+  count()
+tsv_data %>%
+  group_by(`rain (mm)`) %>%
+  count()
+tsv_data %>%
+  group_by(`sun (hours)`) %>%
+  count()
+```
+Opening the file and having a look at the data, some entries are marked with `---` implying missing data. Some data entries also have an additional `*` attached to their value. The `---` values are going to be replaced with `NULL` values because having `---` looks like an unconventional `NULL` value, until localized averages are learned, and the `*` will be removed from the entries before converting the whole dataframe to a numeric using `as.numeric`.
+
+While writing `"NULL"` as a string is probably bad practice, it is interpreted as a `NULL` value in the dataframe, which will allow the dataframe to be converted into a numeric without string or character interference. Converting it to `0` might bias the the values for the date.
+
+```{r cleaning_data}
+tsv_data[tsv_data == "---"] <- "NULL"
+tsv_data[] <- lapply(tsv_data, gsub, pattern = '\\*', replacement = '')
+tsv_data[] <- sapply(tsv_data[], as.numeric)
+
+head(tsv_data)
+summary(tsv_data)
+```
+
+## Exercise 3 - Makin' a `date`, oh yeah!
+
+Using `ymd()` from `lubridate` to create a date. Since the function requires a day, and no specific day has been given, the day will be set to `1`.   
+
+```{r date_from_data}
+library(lubridate)
+
+tsv_data$date <- ymd(str_c(tsv_data$yyyy, tsv_data$mm, "1", sep = "-"))
+head(tsv_data$date)
+```
+
+## Exercise 4 - Plot it smooth, baby!
+
+In this exercise, `geom_smooth()` is used to create a trending line to figure out if there is a relationship between `date` and the associated column.
+
+
+
+```{r plot_by_date, fig.width=10, fig.height=10}
+
+library(patchwork)
+
+tmax_p <- ggplot(tsv_data, aes(x=date, y = `tmax (degC)`, colour=mm)) +
+  geom_point() + 
+  geom_smooth(method="lm") + 
+  ggtitle("Max Temp (C)") + 
+  labs(x="Date", y = "Max Temp", colour = "Month")
+
+tmin_p <- ggplot(tsv_data, aes(x=date, y = `tmin (degC)`, colour=mm)) +
+  geom_point() + 
+  geom_smooth(method="lm") + 
+  ggtitle("Min Temp (C)") + 
+  labs(x="Date", y = "Min Temp", colour = "Month")
+
+af_p <- ggplot(tsv_data, aes(x=date, y = `af (days)`, colour=mm)) +
+  geom_point() + 
+  geom_smooth(method="lm") + 
+  ggtitle("af") + 
+  labs(x="Date", y = "af", colour = "Month")  
+
+rain_p <- ggplot(tsv_data, aes(x=date, y = `rain (mm)`, colour=mm)) +
+  geom_point() + 
+  geom_smooth(method="lm") + 
+  ggtitle("Rain (mm)") + 
+  labs(x="Date", y = "Rain(mm)", colour = "Month")
+
+sun_p <- ggplot(tsv_data, aes(x=date, y = `sun (hours)`, colour=date)) +
+  geom_point() + 
+  geom_smooth(method="lm") + 
+  ggtitle("Sun (hours)") + 
+  labs(x="Date", y = "Sun (hours)", colour = "Month")
+
+sun_p2 <- ggplot(filter(tsv_data, between(date, as.Date("1985-01-01"), as.Date("1989-12-31"))), aes(x=date, y = `sun (hours)`, colour=mm)) +
+  geom_point() + 
+  geom_smooth(method="lm") + 
+  ggtitle("Sun (hours) by Month \nfrom 1985 to 1989") + 
+  labs(x="Month", y = "Sun (hours)", colour = "Year")
+
+(tmax_p + tmin_p) / (af_p + rain_p) / (sun_p + sun_p2)
+
+```
