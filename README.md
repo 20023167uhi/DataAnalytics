@@ -3,9 +3,9 @@ Repository for Data Analytics on the Web
 
 This repository is largely kept in 3 main directories.
 
-* Udemy - Data Science and Machine Learning
-* Kaggle
-* ScotlandIS - Certificate for Professional Development in Data Science
+* [Udemy](https://github.com/20023167uhi/DataAnalytics/tree/main#udemy) - Data Science and Machine Learning
+* [Kaggle](https://github.com/20023167uhi/DataAnalytics/tree/main#kaggle)
+* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/tree/main#scotlandis) - Certificate for Professional Development in Data Science
 
 # Udemy
 
