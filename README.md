@@ -9,7 +9,20 @@ This repository is largely kept in 3 main directories.
 
 # Udemy
 
-This is the first course I sat with regards to Data Science, the topics covered are listed below.
+This is the first course I sat with regards to Data Science. A shortlist of topics is listed below with links to a more detailed list that links to my exercises.
+
+1. [Python Refresher](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#1-python-refresher)
+2. [Numpy](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#2-numpy)
+3. [Pandas](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#3-pandas)
+4. [Data Visualization with Matplotlib](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#4-data-visualization-with-matplotlib)
+5. [Data Visualization with Seaborn](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#5-data-visualization-with-seaborn)
+6. [Pandas Built-in Data Visualization](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#6-pandas-built-in-data-visualization)
+7. [Plotly and Cufflinks](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#7-plotly-and-cufflinks)
+8. [Geographical Plotting](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#8-geographical-plotting)
+9. [Data Capstone Projects](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#9-data-capstone-projects)
+10. [Linear Regression](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#10-linear-regression)
+
+... to be continued...
 
 ## 1. Python Refresher
 
@@ -55,7 +68,7 @@ This is the first course I sat with regards to Data Science, the topics covered 
 7. [Seaborn Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/06-Data-Visualization-with-Seaborn/07-Seaborn%20Exercises.ipynb)
 8. [My Seaborn Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/06-Data-Visualization-with-Seaborn/My%20Seaeborn%20Plot%20Notes.ipynb)
 
-## 6. Pandas Built-in Data visualization
+## 6. Pandas Built-in Data Visualization
 
 1. [Pandas Built-in Data Visualization](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/07-Pandas-Built-in-Data-Viz/01-Pandas%20Built-in%20Data%20Visualization.ipynb)
 2. [Pandas Data Visualization Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/07-Pandas-Built-in-Data-Viz/02-Pandas%20Data%20Visualization%20Exercise.ipynb)
