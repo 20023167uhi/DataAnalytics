@@ -46,7 +46,7 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 6. [Merging, Joining, and Concatenating](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/03-Python-for-Data-Analysis-Pandas/06-Merging%2C%20Joining%2C%20and%20Concatenating.ipynb)
 7. [Operations](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/03-Python-for-Data-Analysis-Pandas/07-Operations.ipynb)
 8. [Data Input and Output](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/03-Python-for-Data-Analysis-Pandas/08-Data%20Input%20and%20Output.ipynb)
-9. [Pandas Salaries Exercises])https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/04-Pandas-Exercises/01-SF%20Salaries%20Exercise.ipynb)
+9. [Pandas Salaries Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/04-Pandas-Exercises/01-SF%20Salaries%20Exercise.ipynb)
 10. [Pandas Ecommerce Purchases Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/04-Pandas-Exercises/03-Ecommerce%20Purchases%20Exercise%20.ipynb)
 11. [My Pandas Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/03-Python-for-Data-Analysis-Pandas/Pandas%20notes.ipynb)
 
