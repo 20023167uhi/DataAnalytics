@@ -64,8 +64,6 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 18. [Big Data and Spark](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#18-big-data-and-spark)
 19. [Deep Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#19-deep-learnning)
 
-... to be continued...
-
 ## 1. Python Refresher
 
 A short course just to go over some very basics of Python
