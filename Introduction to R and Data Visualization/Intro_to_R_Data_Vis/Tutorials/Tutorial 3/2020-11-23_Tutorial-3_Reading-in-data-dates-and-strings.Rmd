@@ -2,7 +2,9 @@
 title: "Tutorial 3 Reading in Data and Date/Strings"
 author: "Tom Blackwood"
 date: "23/11/2020"
-output: html_document
+output: 
+  # html_document
+  rmarkdown:: github_document
 ---
 
 ```{r setup, include=FALSE}

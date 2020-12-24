@@ -2,7 +2,9 @@
 title: "Tutorial 2 - Manipulating data with dplyr"
 author: "Tom Blackwood"
 date: "10/11/2020"
+always_allow_html: true
 output:
+  rmarkdown:: github_document
   html_document:
     df_print: paged
 ---
