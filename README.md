@@ -7,6 +7,14 @@ This repository is largely kept in 3 main directories.
 * [Kaggle](https://github.com/20023167uhi/DataAnalytics/tree/main#kaggle)
 * [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/tree/main#scotlandis) - Certificate for Professional Development in Data Science
 
+# Kaggle
+
+1. [Pandas](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/4%20-%20Pandas/Pandas%20notes.ipynb)
+2. [Data Cleaning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/12%20-%20Data%20Cleaning/Data%20Cleaning.ipynb)
+3. [Feature Engineering](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/5%20-%20Feature%20Engineering/Feature%20Engineering.ipynb)
+4. [Introduction to Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/2%20-%20Intro%20to%20Machine%20Learning/Untitled.ipynb)
+5. [Intermediate Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning.ipynb), and [Intermediate Machine Learning Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning%20Exercises.ipynb)
+
 # Udemy
 
 This is the first course I sat with regards to Data Science. A shortlist of topics is listed below with links to a more detailed list that links to my exercises.
