@@ -3,10 +3,11 @@ title: "Getting Started with ggplot 2 - Part 1"
 author: "Tom Blackwood"
 date: "06/11/2020"
 output:
-  html_document:
-    toc: yes
-  word_document:
-    toc: yes
+  rmarkdown::github_document
+  # html_document:
+  #   toc: yes
+  # word_document:
+  #   toc: yes
 ---
 
 ```{r setup, include=FALSE}
