@@ -1,0 +1,78 @@
+---
+title: "Skills Test 2"
+author: "Tom Blackwood"
+date: "10/12/2020"
+output: 
+  # html_document
+  rmarkdown:: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# load package
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(patchwork)
+```
+
+## Assignment 2
+
+Fuel data is randomly generated and written to a `.CSV`.  The Seed for the random generation is set ot 72 and the sample size is set to 7,216,516,166.
+
+```{r fuel_gen}
+# set seed and sample size
+set.seed(72) # change this
+sample_size <- 7216516166 # feel free to increase this
+
+# create randomised tibble/data frame
+fuel_data <- tibble(
+  year = sample(c(2010:2020), min(500, sample_size), replace = TRUE),
+  month = sample(c(1:12), min(500, sample_size), replace = TRUE),
+  day = sample(c(1:31), min(500, sample_size), replace = TRUE),
+  petrol_price = round(rnorm(min(500, sample_size), 110, 1)/100, 2),
+  diesel_price = round(rnorm(min(500, sample_size), 120, 1)/100, 2)
+)
+
+# write fuel_data to file
+write.csv(fuel_data, "fuel_data.csv", row.names=FALSE)
+```
+The data is then read from the csv and a summary says what's in the data.
+```{r fuel_read}
+# read file in 
+fuel_data2 <- read.csv("fuel_data.csv")
+
+# summarise data in at least one way
+head(fuel_data2)
+summary(fuel_data2)
+```
+The data is then articulated to be plotted. 
+A new column is created for the `date` so the fuel prices can be pivoted longer to plot both fuels on the same graph.
+
+The `month` number is replaced with the month value and the dates that generated warnings are dropped from the set.
+
+A facet grid plot is created using the `months` for one axis of the grid and the `years` for the other axis. The days of the month are posted along the `x-axis` and the price along the `y-axis`. 
+
+```{r fuel_plot, fig.width=12, fig.height=10}
+# plot the data in at least one way
+fuel_data2$date <- with(fuel_data2, ymd(paste(year, month, day, sep="-")))
+fuel_data3 <- fuel_data2 %>% 
+  pivot_longer(cols = petrol_price:diesel_price, names_to = 'fuel', values_to = 'price')
+
+fuel_data3$month <- month(as.Date(fuel_data3$date), label=TRUE)
+fuel_data3 <- fuel_data3 %>% drop_na(month)
+
+p1 <- ggplot(fuel_data3, aes(x = day, y = price, colour=fuel)) + 
+  geom_line() + 
+  facet_grid(year ~ month) + 
+  
+  ggtitle("Price of Fuel by Month/Year") +
+  labs(x = "Day of Month", y = "Price", colour = "Fuel") + 
+  
+  theme(
+    plot.title = element_text(size = 20, face = "bold", hjust = 0.5),
+  )
+
+p1
+
+```

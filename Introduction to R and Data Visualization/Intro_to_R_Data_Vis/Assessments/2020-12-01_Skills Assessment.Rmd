@@ -2,7 +2,9 @@
 title: "Skills Assessment 1 - ggplot 2"
 author: "Tom Blackwood"
 date: "01/12/2020"
-output: html_document
+output: 
+  # html_document
+  rmarkdown:: github_document
 ---
 
 ```{r setup, include=FALSE}
