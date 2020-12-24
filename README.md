@@ -40,9 +40,6 @@ This is a short course I took from November 2020 - January 2021 during the Coron
   2. [Plot randomly generated fuel data using ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Assessments/2020-12-10_Skills-Assessment-2.md)
   3. [Create a function in an R script that sums letters in a vector together based on their alphabet index value](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Assessments/2020-12-15_Skills-Assessment-3.R)
 
-1. [Importing and plotting data](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/R/Tutorial%201/2020-11-03_Part%201-Getting-Started-ggplot2_TomBlackwood.R)
-2. 
-
 # Udemy
 
 This is the first course I sat with regards to Data Science. A shortlist of topics is listed below with links to a more detailed list that links to my exercises.
