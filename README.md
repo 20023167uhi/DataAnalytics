@@ -3,9 +3,9 @@ Repository for Data Analytics on the Web
 
 This repository is largely kept in 3 main directories.
 
-* [Udemy](https://github.com/20023167uhi/DataAnalytics/tree/main#udemy) - Data Science and Machine Learning
 * [Kaggle](https://github.com/20023167uhi/DataAnalytics/tree/main#kaggle)
 * [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/tree/main#scotlandis) - Certificate for Professional Development in Data Science
+* [Udemy](https://github.com/20023167uhi/DataAnalytics/tree/main#udemy) - Data Science and Machine Learning
 
 # Kaggle
 
@@ -14,6 +14,34 @@ This repository is largely kept in 3 main directories.
 3. [Feature Engineering](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/5%20-%20Feature%20Engineering/Feature%20Engineering.ipynb)
 4. [Introduction to Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/2%20-%20Intro%20to%20Machine%20Learning/Untitled.ipynb)
 5. [Intermediate Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning.ipynb), and [Intermediate Machine Learning Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning%20Exercises.ipynb)
+
+# ScotlandIS
+
+This is a short course I took from November 2020 - January 2021 during the Coronavirus. Working towards a Certificate for Professional Development seemed the best way to spend my time! The course was primarily focused on using *R* instead of *Python* however with my past experience with Python the assignment for *Data Analytics on the Web* I was allowed to write it in Python.
+
+## Data Analytics on the Web
+
+1. [Assignment 1](https://github.com/20023167uhi/DataAnalytics/blob/main/Data%20Analytics%20on%20the%20Web/Assignment%201/DataAnalyticsOnTheWebAssignment.ipynb) - Selecting and cleaning collision and weather data of New York from BigQuery.
+2. [Assignment 2](#) - Linear Regression and Deep Learning Neural Networks of data from Assignment 1 (to be completed) 
+
+## Introduction to R and Data Visualization
+
+### Tutorials
+ 
+ 1. [Getting started with ggplot2](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%201/2020-11-13_Part-1-Getting-Started-ggplot2_TomBlackwood.md)
+ 2. [Manipulating data with dplyr](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%202/2020-11-11_Tutorial-2_Manipulating-data-with-dplyr.md) (Note: Last plot does not render in Markdown but does in HTML)
+ 3. [Reading-in data - dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%203/2020-11-23_Tutorial-3_Reading-in-data-dates-and-strings.md)
+ 4. [Reading dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%204/2020-11-23_Tutorial-4_Reading-dates-and-strings.md)
+ 5. [If, for, and while functions](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%205/2020-11-30_Tutorial-5_If-For-and-While-Functions.md)
+ 6. [Functions](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%206/2020-12-2_Tutorial-6_Functions.md)
+
+### Assessments
+  1. [Creating an obscure and hard to read figure with ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Assessments/2020-12-01_Skills-Assessment.md)
+  2. [Plot randomly generated fuel data using ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Assessments/2020-12-10_Skills-Assessment-2.md)
+  3. [Create a function in an R script that sums letters in a vector together based on their alphabet index value](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Assessments/2020-12-15_Skills-Assessment-3.R)
+
+1. [Importing and plotting data](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/R/Tutorial%201/2020-11-03_Part%201-Getting-Started-ggplot2_TomBlackwood.R)
+2. 
 
 # Udemy
 
