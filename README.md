@@ -21,6 +21,15 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 8. [Geographical Plotting](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#8-geographical-plotting)
 9. [Data Capstone Projects](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#9-data-capstone-projects)
 10. [Linear Regression](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#10-linear-regression)
+11. [Logistic Regression](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#11-logistic-regression)
+12. [K Nearest Neighbours](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#12-k-nearest-neighbours)
+13. [Decision Trees and Random Forests](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#13-decision-trees-and-random-forests)
+14. [Support Vector Machines](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#14-support-vector-machines)
+15. [K-Means Clustering](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#15-k-means-clustering)
+16. [Principle Component Analysis](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#16-principle-component-analysis)
+17. [Natural Language Processing](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#17-natural-language-processing)
+18. [Big Data and Spark](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#18-big-data-and-spark)
+19. [Deep Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#19-deep-learnning)
 
 ... to be continued...
 
@@ -95,6 +104,64 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 1. [Linear Regression with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/11-Linear-Regression/01-Linear%20Regression%20with%20Python.ipynb)
 2. [Linear Regression Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/11-Linear-Regression/02-Linear%20Regression%20Project.ipynb)
 3. [My Linear Regression Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/11-Linear-Regression/Linear%20Regression%20notes.ipynb)
+
+## 11. Logistic Regression
+
+1. [Logistic Regression with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/13-Logistic-Regression/01-Logistic%20Regression%20with%20Python.ipynb)
+2. [Logistic Regression Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/13-Logistic-Regression/02-Logistic%20Regression%20Project.ipynb)
+3. [My Logistic Regression Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/13-Logistic-Regression/My%20Logistic%20Regression%20notes.ipynb)
+
+## 12. K Nearest Neighbours
+
+1. [K Nearest Neighbours with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/14-K-Nearest-Neighbors/01-K%20Nearest%20Neighbors%20with%20Python.ipynb)
+2. [K Nearest Neighbours Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/14-K-Nearest-Neighbors/02-K%20Nearest%20Neighbors%20Project.ipynb)
+3. [My K Nearest Neighbours Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/14-K-Nearest-Neighbors/My%20K%20Nearest%20Neighbours%20notes.ipynb)
+
+## 13. Decision Trees and Random Forests
+
+1. [Decision Trees and Random Forests in Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/15-Decision-Trees-and-Random-Forests/01-Decision%20Trees%20and%20Random%20Forests%20in%20Python.ipynb)
+2. [Decision Trees and Random Forests Projects](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/15-Decision-Trees-and-Random-Forests/02-Decision%20Trees%20and%20Random%20Forest%20Project.ipynb)
+3. [My Decision Tree Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/15-Decision-Trees-and-Random-Forests/My%20Decision%20Tree%20Notes.ipynb)
+
+## 14. Support Vector Machines
+
+1. [Support Vector Machines with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/16-Support-Vector-Machines/01-Support%20Vector%20Machines%20with%20Python.ipynb)
+2. [Support Vector Machines Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/16-Support-Vector-Machines/02-Support%20Vector%20Machines%20Project.ipynb)
+3. [My Support Vector Machines Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/16-Support-Vector-Machines/Support%20Vector%20Machine%20Notes.ipynb)
+
+## 15. K-Means Clustering
+
+1. [K Means Clustering with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/17-K-Means-Clustering/01-K%20Means%20Clustering%20with%20Python.ipynb)
+2. [K Means Clustering Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/17-K-Means-Clustering/02-K%20Means%20Clustering%20Project.ipynb)
+3. [My K Means Clustering Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/17-K-Means-Clustering/My%20K-Means%20Clustering%20Notes.ipynb)
+
+## 16. Principle Component Analysis
+
+1. [Principle Component Analysis](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/18-Principal-Component-Analysis/01-Principal%20Component%20Analysis.ipynb)
+2. [My Principle Component Analysis Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/18-Principal-Component-Analysis/My%20Principle%20Component%20Analysis%20(PCA)%20notes.ipynb)
+
+## 17. Natural Language Processing
+
+1. [NLP (Natural Language Processing) with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/20-Natural-Language-Processing/01-NLP%20(Natural%20Language%20Processing)%20with%20Python.ipynb)
+2. [NLP Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/20-Natural-Language-Processing/02-NLP%20Project.ipynb)
+3. [My NLP Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/20-Natural-Language-Processing/My%20Natural%20Language%20Processing%20notes.ipynb)
+
+## 18. Big Data and Spark
+
+1. [Introduction to Spark and Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/01-Introduction%20to%20Spark%20and%20Python.ipynb)
+2. [Lambda Expressions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/02-Lambda%20Expressions.ipynb)
+3. [RDD Transformations and Actions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/03-RDD%20Transformations%20and%20Actions.ipynb)
+4. [My Neural Networks and Deep Learning Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/My%20Neural%20Nets%20and%20Deep%20Learning%20notes.ipynb)
+
+## 19. Deep Learning
+
+1. [Tensorflow Basics](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/22-Deep%20Learning/01-Tensorflow%20Basics.ipynb)
+2. [MNIST with Tensorflow](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/22-Deep%20Learning/02-MNIST-with-Tensorflow.ipynb)
+3. [Tensorflow with Estimators](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/22-Deep%20Learning/03-Tensorflow%20with%20Estimators.ipynb)
+4. [Tensorflow Project Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/22-Deep%20Learning/04-Tensorflow%20Project%20Exercise.ipynb) (Note to self: Update file)
+
+
+
 
 Writing still in progress...
 
