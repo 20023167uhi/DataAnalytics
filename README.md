@@ -17,6 +17,8 @@ This repository is largely kept in 3 main directories.
 
 # ScotlandIS
 
+### Data science Certificate for Professional Development
+
 This is a short course I took from November 2020 - January 2021 during the Coronavirus. Working towards a Certificate for Professional Development seemed the best way to spend my time! The course was primarily focused on using *R* instead of *Python* however with my past experience with Python the assignment for *Data Analytics on the Web* I was allowed to write it in Python.
 
 ## Data Analytics on the Web
@@ -68,9 +70,14 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 
 ## 1. Python Refresher
 
+A short course just to go over some very basics of Python
+
 1. [A Python Crash Course](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/01-Python-Crash-Course/01-Python%20Crash%20Course.ipynb) and [Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/01-Python-Crash-Course/02-Python%20Crash%20Course%20Exercises.ipynb)
+2. [Lambda Expressions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/02-Lambda%20Expressions.ipynb)
 
 ## 2. Numpy
+
+A refresher on Numpy to make sure the student (me) and the teacher have the same understanding!
 
 1. [Numpy](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/02-Python-for-Data-Analysis-NumPy/01-NumPy%20Arrays.ipynb), 
 2. [Numpy Indexing and Selection](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/02-Python-for-Data-Analysis-NumPy/02-Numpy%20Indexing%20and%20Selection.ipynb), 
@@ -79,6 +86,8 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 5. [My Numpy Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/02-Python-for-Data-Analysis-NumPy/Data%20Analysis%20and%20Numpy%20notes.ipynb) 
 
 ## 3. Pandas
+
+An introduction to Pandas for me!
 
 1. [Introduction to Pandas](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/03-Python-for-Data-Analysis-Pandas/01-Introduction%20to%20Pandas.ipynb)
 2. [Series](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/03-Python-for-Data-Analysis-Pandas/02-Series.ipynb)
@@ -94,12 +103,16 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 
 ## 4. Data visualization with Matplotlib
 
+An introduction to Matplotlib and how to use it to render plots.
+
 1. [Matplotlib Overview](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/05-Data-Visualization-with-Matplotlib/01-Matplotlib%20Concepts%20Lecture.ipynb)
 2. [Matplotlib Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/05-Data-Visualization-with-Matplotlib/02-Matplotlib%20Exercises.ipynb)
 3. [Advanced Matplotlib Concepts Lecture](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/05-Data-Visualization-with-Matplotlib/04-Advanced%20Matplotlib%20Concepts.ipynb)
 4. [My Matplotlib Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/05-Data-Visualization-with-Matplotlib/Matplotlib%20notes.ipynb)
 
 ## 5. Data visualization with Seaborn
+
+Seaborn is like a modified Matplotlib which can render plots slightly nicer!
 
 1. [Distribution Plots](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/06-Data-Visualization-with-Seaborn/01-Distribution%20Plots.ipynb)
 2. [Categorical Data Plots](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/06-Data-Visualization-with-Seaborn/02-Categorical%20Plots.ipynb)
@@ -112,16 +125,22 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 
 ## 6. Pandas Built-in Data Visualization
 
+A look at some of the built in data visualization functions fo python
+
 1. [Pandas Built-in Data Visualization](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/07-Pandas-Built-in-Data-Viz/01-Pandas%20Built-in%20Data%20Visualization.ipynb)
 2. [Pandas Data Visualization Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/07-Pandas-Built-in-Data-Viz/02-Pandas%20Data%20Visualization%20Exercise.ipynb)
 3. [My Pandas Built-in Data Visualization Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/07-Pandas-Built-in-Data-Viz/My%20Pandas%20Data%20Visualization%20notes.ipynb)
 
 ## 7. Plotly and Cufflinks
 
+Plotly and cufflinks provides an interactive look at plots rather than the static imaging of Matplotlib and Seaborn
+
 1. [Plotly and Cufflinks](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/08-Plotly-and-Cufflinks/01-Plotly%20and%20Cufflinks.ipynb)
 2. [Plotly and Cufflinks Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/08-Plotly-and-Cufflinks/My%20Plotly%20and%20Cufflinks%20Notes.ipynb)
 
 ## 8. Geographical Plotting
+
+Plotting data out on maps!
 
 1. [Choropleth Maps](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/09-Geographical-Plotting/01-Choropleth%20Maps.ipynb)
 2. [Choropleth Map Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/09-Geographical-Plotting/02-Choropleth%20Maps%20Exercise.ipynb)
@@ -129,10 +148,14 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 
 ## 9. Data Capstone Projects
 
+A project to have a look at 911 Calls and plotting stocks data based on banking information.
+
 1. [911 Calls Capstone Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/10-Data-Capstone-Projects/01-911%20Calls%20Data%20Capstone%20Project.ipynb)
 2. [Financial Data Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/10-Data-Capstone-Projects/03-Finance%20Project.ipynb)
 
 ## 10. Linear Regression
+
+Using the linear regression model to make predictions on realestate data based on average income, average house age, average number of rooms in area, average number of bedrooms in area, and area population to predict price.
 
 1. [Linear Regression with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/11-Linear-Regression/01-Linear%20Regression%20with%20Python.ipynb)
 2. [Linear Regression Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/11-Linear-Regression/02-Linear%20Regression%20Project.ipynb)
@@ -140,11 +163,15 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 
 ## 11. Logistic Regression
 
+Using the logistic regression model to make predictions on the titanic dataset to try and predict if passengers survived or not based on passenger id, class, age, siblings/spouses on board, parent or child on board, fare, sex based on if they're male or not, and whether they got on at Cherborg, Queenstown, or Southampton.
+
 1. [Logistic Regression with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/13-Logistic-Regression/01-Logistic%20Regression%20with%20Python.ipynb)
 2. [Logistic Regression Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/13-Logistic-Regression/02-Logistic%20Regression%20Project.ipynb)
 3. [My Logistic Regression Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/13-Logistic-Regression/My%20Logistic%20Regression%20notes.ipynb)
 
 ## 12. K Nearest Neighbours
+
+Using k nearest neighbours to make predictions on a dataset with classified data. Given a set of values with a target, the values can be used to train a model to recognize if a certain set of values are true or not.
 
 1. [K Nearest Neighbours with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/14-K-Nearest-Neighbors/01-K%20Nearest%20Neighbors%20with%20Python.ipynb)
 2. [K Nearest Neighbours Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/14-K-Nearest-Neighbors/02-K%20Nearest%20Neighbors%20Project.ipynb)
@@ -152,11 +179,15 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 
 ## 13. Decision Trees and Random Forests
 
+Seeing the difference between a decision tree and a random forest to make predictions on data. Using a Kyphosis, the rounding or hunching of the back, dataset to make predictions based on the presence of it, age, a number and a starting value.
+
 1. [Decision Trees and Random Forests in Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/15-Decision-Trees-and-Random-Forests/01-Decision%20Trees%20and%20Random%20Forests%20in%20Python.ipynb)
 2. [Decision Trees and Random Forests Projects](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/15-Decision-Trees-and-Random-Forests/02-Decision%20Trees%20and%20Random%20Forest%20Project.ipynb)
 3. [My Decision Tree Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/15-Decision-Trees-and-Random-Forests/My%20Decision%20Tree%20Notes.ipynb)
 
 ## 14. Support Vector Machines
+
+Using Breast Cancer Wisconsin (Diagnostic) Database data to try and make predictions based on characteristics described by the cell nuclei present in an image.
 
 1. [Support Vector Machines with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/16-Support-Vector-Machines/01-Support%20Vector%20Machines%20with%20Python.ipynb)
 2. [Support Vector Machines Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/16-Support-Vector-Machines/02-Support%20Vector%20Machines%20Project.ipynb)
@@ -164,16 +195,22 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 
 ## 15. K-Means Clustering
 
+Looking at randomly generated clustered blobs of data points to make predictions.
+
 1. [K Means Clustering with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/17-K-Means-Clustering/01-K%20Means%20Clustering%20with%20Python.ipynb)
 2. [K Means Clustering Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/17-K-Means-Clustering/02-K%20Means%20Clustering%20Project.ipynb)
 3. [My K Means Clustering Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/17-K-Means-Clustering/My%20K-Means%20Clustering%20Notes.ipynb)
 
 ## 16. Principle Component Analysis
 
+Principle component analysis is a transformation of the data and an unsupervised learning algorithm. The Breast Cancer Wisconsin (Diagnostic) Database was again used to try and make predictions based on components that best describe the data by variance.
+
 1. [Principle Component Analysis](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/18-Principal-Component-Analysis/01-Principal%20Component%20Analysis.ipynb)
 2. [My Principle Component Analysis Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/18-Principal-Component-Analysis/My%20Principle%20Component%20Analysis%20(PCA)%20notes.ipynb)
 
 ## 17. Natural Language Processing
+
+Natural Language Processing will use machine learning with spam text samples and Yelp to filter content by relevance.
 
 1. [NLP (Natural Language Processing) with Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/20-Natural-Language-Processing/01-NLP%20(Natural%20Language%20Processing)%20with%20Python.ipynb)
 2. [NLP Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/20-Natural-Language-Processing/02-NLP%20Project.ipynb)
@@ -181,20 +218,17 @@ This is the first course I sat with regards to Data Science. A shortlist of topi
 
 ## 18. Big Data and Spark
 
+Using pyspark to process big data using Amazon Web Services (AWS). Lambda expressions are then used to map and transform Resilient Distributed Datasets (RDD). 
+
 1. [Introduction to Spark and Python](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/01-Introduction%20to%20Spark%20and%20Python.ipynb)
-2. [Lambda Expressions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/02-Lambda%20Expressions.ipynb)
-3. [RDD Transformations and Actions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/03-RDD%20Transformations%20and%20Actions.ipynb)
-4. [My Neural Networks and Deep Learning Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/My%20Neural%20Nets%20and%20Deep%20Learning%20notes.ipynb)
+2. [RDD Transformations and Actions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/03-RDD%20Transformations%20and%20Actions.ipynb)
+3. [My Neural Networks and Deep Learning Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/My%20Neural%20Nets%20and%20Deep%20Learning%20notes.ipynb)
 
 ## 19. Deep Learning
+
+Introduction to using Tensorflow and runnning sessions before using the MNIST dataset to make predictions.
 
 1. [Tensorflow Basics](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/22-Deep%20Learning/01-Tensorflow%20Basics.ipynb)
 2. [MNIST with Tensorflow](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/22-Deep%20Learning/02-MNIST-with-Tensorflow.ipynb)
 3. [Tensorflow with Estimators](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/22-Deep%20Learning/03-Tensorflow%20with%20Estimators.ipynb)
 4. [Tensorflow Project Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/22-Deep%20Learning/04-Tensorflow%20Project%20Exercise.ipynb) (Note to self: Update file)
-
-
-
-
-Writing still in progress...
-
