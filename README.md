@@ -129,7 +129,7 @@ A look at some of the built in data visualization functions fo python
 
 ## 7. Plotly and Cufflinks
 
-Plotly and cufflinks provides an interactive look at plots rather than the static imaging of Matplotlib and Seaborn
+Plotly and cufflinks create interactive plots rather than the static imaging of Matplotlib and Seaborn
 
 1. [Plotly and Cufflinks](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/08-Plotly-and-Cufflinks/01-Plotly%20and%20Cufflinks.ipynb)
 2. [Plotly and Cufflinks Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/08-Plotly-and-Cufflinks/My%20Plotly%20and%20Cufflinks%20Notes.ipynb)
