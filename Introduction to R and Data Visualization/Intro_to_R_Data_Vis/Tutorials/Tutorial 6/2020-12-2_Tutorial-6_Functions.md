@@ -1,4 +1,3 @@
-=======
 Tutorial 6 Functions
 ================
 Tom Blackwood
