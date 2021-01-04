@@ -1,0 +1,57 @@
+---
+title: "Skills Assessment 1 - ggplot 2"
+author: "Tom Blackwood"
+date: "01/12/2020"
+output: 
+  # html_document
+  rmarkdown:: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+library(scales)
+```
+
+## Skills Assessment part 1
+
+The purpose of this assessment is to alter the code below and try to make the plot as difficult/distracting as possible.
+
+```{r diamonds_plot_1, eval=FALSE}
+ggplot(diamonds, aes(x = carat, y = price, colour = cut)) + 
+  geom_point() # + ...
+```
+
+The head of the data is:
+
+```{r data_head}
+head(diamonds) 
+```
+
+And highlighting some data by adding a few features:
+
+```{r diamonds_plot_2, fig.height=10, fig.width=7.5}
+
+p1 <- ggplot(diamonds, aes(x = carat, y = price, colour = cut)) + theme_bw() +
+  geom_text(aes(label=round(z, 2))) +
+  geom_violin(alpha = 0.5) +
+  geom_point(aes(shape =  clarity, size = color)) + 
+  
+  ggtitle("Price of Diamonds with respect to Carat,\n where shape is clarity and size is color") +
+  labs(x = "Diamond Carat", y = "Diamond Price", colour = "Diamond Cut") + 
+  
+  theme(
+    plot.title = element_text(size = 40, face = "bold", colour = "blue", hjust = 0.5),
+    axis.line = element_line(color = "darkblue", size = 1, linetype = "solid"),
+    axis.text.x = element_text(face = "bold", color = "#993333", size = 20, angle = 90, hjust = 0.5),
+    axis.text.y = element_text(face = "italic", color = "green", size = 12, angle = 45)
+  ) +
+  
+  scale_x_discrete(limits=min(diamonds$carat):max(diamonds$carat))+
+  scale_y_continuous(labels = dollar)
+
+
+p1
+
+```

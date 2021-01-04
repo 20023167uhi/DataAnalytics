@@ -1,0 +1,34 @@
+---
+title: "Tutorial 8"
+author: "Tom Blackwood"
+output: html_document
+
+params: 
+  station: 
+    value: NA
+  data: NA
+date: "02/01/2021"
+
+output_file: NA
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+## Historical Weather for `r params$station` station
+
+This is an R Markdown document is part of a series of reports made to plot weather data from various train stations.
+This document hosts the data from the data frame below.
+
+```{r weather_df}
+head(params$data)
+```
+
+And plots like the following for `tmax (degC)` vs `date` can be made:
+
+```{r plot_weather}
+ggplot(params$data, aes(x = date, y = `tmax (degC)`, colour = yyyy)) + 
+  geom_line()
+```
