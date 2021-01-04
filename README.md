@@ -1,9 +1,9 @@
 # DataAnalytics
 This is a repository for some of the Data Analytics projects I've been working in Python and R. The repository is generally grouped into 3 sets with respect to who I've been studying with. The three groups are:
 
-* [Kaggle](https://github.com/20023167uhi/DataAnalytics/tree/main#kaggle)
-* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/tree/main#scotlandis) - Certificate for Professional Development in Data Science
-* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/tree/main#python-for-data-science-and-machine-learning)
+* [Kaggle](https://github.com/20023167uhi/DataAnalytics/#kaggle)
+* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/#scotlandis) - Certificate for Professional Development in Data Science
+* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/#python-for-data-science-and-machine-learning)
 
 # Kaggle
 
