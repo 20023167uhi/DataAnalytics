@@ -1,9 +1,9 @@
 # DataAnalytics
 This is a repository for some of the Data Analytics projects I've been working in Python and R. The repository is generally grouped into 3 sets with respect to who I've been studying with. The three groups are:
 
-* [Kaggle](https://github.com/20023167uhi/DataAnalytics/tree/main#kaggle)
-* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/tree/main#scotlandis) - Certificate for Professional Development in Data Science
-* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/tree/main#python_for_data_science_and_machine_learning)
+* [Kaggle](https://github.com/20023167uhi/DataAnalytics/#kaggle)
+* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/#scotlandis) - Certificate for Professional Development in Data Science
+* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/#python-for-data-science-and-machine-learning)
 
 # Kaggle
 
@@ -48,25 +48,25 @@ This is a short course I took from November 2020 - January 2021 during the Coron
 
 This is the first course I sat with regards to Data Science. It is a course hosted on [Udemy](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/). A shortlist of topics is listed below with links to a more detailed list that links to my exercises.
 
-1. [Python Refresher](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#1-python-refresher)
-2. [Numpy](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#2-numpy)
-3. [Pandas](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#3-pandas)
-4. [Data Visualization with Matplotlib](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#4-data-visualization-with-matplotlib)
-5. [Data Visualization with Seaborn](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#5-data-visualization-with-seaborn)
-6. [Pandas Built-in Data Visualization](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#6-pandas-built-in-data-visualization)
-7. [Plotly and Cufflinks](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#7-plotly-and-cufflinks)
-8. [Geographical Plotting](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#8-geographical-plotting)
-9. [Data Capstone Projects](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#9-data-capstone-projects)
-10. [Linear Regression](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#10-linear-regression)
-11. [Logistic Regression](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#11-logistic-regression)
-12. [K Nearest Neighbours](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#12-k-nearest-neighbours)
-13. [Decision Trees and Random Forests](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#13-decision-trees-and-random-forests)
-14. [Support Vector Machines](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#14-support-vector-machines)
-15. [K-Means Clustering](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#15-k-means-clustering)
-16. [Principle Component Analysis](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#16-principle-component-analysis)
-17. [Natural Language Processing](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#17-natural-language-processing)
-18. [Big Data and Spark](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#18-big-data-and-spark)
-19. [Deep Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#19-deep-learnning)
+1. [Python Refresher](https://github.com/20023167uhi/DataAnalytics/#1-python-refresher)
+2. [Numpy](https://github.com/20023167uhi/DataAnalytics/#2-numpy)
+3. [Pandas](https://github.com/20023167uhi/DataAnalytics/#3-pandas)
+4. [Data Visualization with Matplotlib](https://github.com/20023167uhi/DataAnalytics/#4-data-visualization-with-matplotlib)
+5. [Data Visualization with Seaborn](https://github.com/20023167uhi/DataAnalytics/#5-data-visualization-with-seaborn)
+6. [Pandas Built-in Data Visualization](https://github.com/20023167uhi/DataAnalytics/#6-pandas-built-in-data-visualization)
+7. [Plotly and Cufflinks](https://github.com/20023167uhi/DataAnalytics/#7-plotly-and-cufflinks)
+8. [Geographical Plotting](https://github.com/20023167uhi/DataAnalytics/#8-geographical-plotting)
+9. [Data Capstone Projects](https://github.com/20023167uhi/DataAnalytics/#9-data-capstone-projects)
+10. [Linear Regression](https://github.com/20023167uhi/DataAnalytics/#10-linear-regression)
+11. [Logistic Regression](https://github.com/20023167uhi/DataAnalytics/#11-logistic-regression)
+12. [K Nearest Neighbours](https://github.com/20023167uhi/DataAnalytics/#12-k-nearest-neighbours)
+13. [Decision Trees and Random Forests](https://github.com/20023167uhi/DataAnalytics/#13-decision-trees-and-random-forests)
+14. [Support Vector Machines](https://github.com/20023167uhi/DataAnalytics/#14-support-vector-machines)
+15. [K-Means Clustering](https://github.com/20023167uhi/DataAnalytics/#15-k-means-clustering)
+16. [Principle Component Analysis](https://github.com/20023167uhi/DataAnalytics/#16-principle-component-analysis)
+17. [Natural Language Processing](https://github.com/20023167uhi/DataAnalytics/#17-natural-language-processing)
+18. [Big Data and Spark](https://github.com/20023167uhi/DataAnalytics/#18-big-data-and-spark)
+19. [Deep Learning](https://github.com/20023167uhi/DataAnalytics/#19-deep-learnning)
 
 ## 1. Python Refresher
 
