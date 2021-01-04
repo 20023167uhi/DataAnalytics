@@ -3,9 +3,11 @@ This is a repository for some of the Data Analytics projects I've been working i
 
 * [Kaggle](https://github.com/20023167uhi/DataAnalytics/tree/main#kaggle)
 * [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/tree/main#scotlandis) - Certificate for Professional Development in Data Science
-* [Udemy](https://github.com/20023167uhi/DataAnalytics/tree/main#udemy) - Data Science and Machine Learning
+* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/tree/main#python_for_data_science_and_machine_learning)
 
 # Kaggle
+
+Kaggle is a data science community with a few [short courses](https://www.kaggle.com/learn/overview) in data science.
 
 1. [Pandas](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/4%20-%20Pandas/Pandas%20notes.ipynb)
 2. [Data Cleaning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/12%20-%20Data%20Cleaning/Data%20Cleaning.ipynb)
@@ -28,21 +30,23 @@ This is a short course I took from November 2020 - January 2021 during the Coron
 
 ### Tutorials
  
- 1. [Getting started with ggplot2](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%201/2020-11-13_Part-1-Getting-Started-ggplot2_TomBlackwood.md)
- 2. [Manipulating data with dplyr](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%202/2020-11-11_Tutorial-2_Manipulating-data-with-dplyr.md) (Note: Last plot does not render in Markdown but does in HTML)
- 3. [Reading-in data - dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%203/2020-11-23_Tutorial-3_Reading-in-data-dates-and-strings.md)
- 4. [Reading dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%204/2020-11-23_Tutorial-4_Reading-dates-and-strings.md)
- 5. [If, for, and while functions](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%205/2020-11-30_Tutorial-5_If-For-and-While-Functions.md)
- 6. [Functions](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Tutorials/Tutorial%206/2020-12-2_Tutorial-6_Functions.md)
+ 1. [Getting started with ggplot2](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%201/2020-11-13_Part-1-Getting-Started-ggplot2_TomBlackwood.md)
+ 2. [Manipulating data with dplyr](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%202/2020-11-11_Tutorial-2_Manipulating-data-with-dplyr.md) (Note: Last plot does not render in Markdown but does in HTML)
+ 3. [Reading-in data - dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%203/2020-11-23_Tutorial-3_Reading-in-data-dates-and-strings.md)
+ 4. [Reading dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%204/2020-11-23_Tutorial-4_Reading-dates-and-strings.md)
+ 5. [If, for, and while functions](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%205/2020-11-30_Tutorial-5_If-For-and-While-Functions.md)
+ 6. [Functions](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%206/2020-12-2_Tutorial-6_Functions.md)
+ 7. [Creating a Shiny App](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%207/app.R)
+ 8. [Using Purrr to read and process datasets, and write reports](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/2020-12-31_Tutorial-8_Purr.R)
 
 ### Assessments
-  1. [Creating an obscure and hard to read figure with ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Assessments/2020-12-01_Skills-Assessment.md)
-  2. [Plot randomly generated fuel data using ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Assessments/2020-12-10_Skills-Assessment-2.md)
-  3. [Create a function in an R script that sums letters in a vector together based on their alphabet index value](https://github.com/20023167uhi/DataAnalytics/blob/main/Introduction%20to%20R%20and%20Data%20Visualization/Intro_to_R_Data_Vis/Assessments/2020-12-15_Skills-Assessment-3.R)
+  1. [Creating an obscure and hard to read figure with ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-01_Skills-Assessment.md)
+  2. [Plot randomly generated fuel data using ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-10_Skills-Assessment-2.md)
+  3. [Create a function in an R script that sums letters in a vector together based on their alphabet index value](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-15_Skills-Assessment-3.R)
 
-# Udemy
+# Python for Data Science and Machine Learning
 
-This is the first course I sat with regards to Data Science. A shortlist of topics is listed below with links to a more detailed list that links to my exercises.
+This is the first course I sat with regards to Data Science. It is a course hosted on [Udemy](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/). A shortlist of topics is listed below with links to a more detailed list that links to my exercises.
 
 1. [Python Refresher](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#1-python-refresher)
 2. [Numpy](https://github.com/20023167uhi/DataAnalytics/blob/main/README.md#2-numpy)
