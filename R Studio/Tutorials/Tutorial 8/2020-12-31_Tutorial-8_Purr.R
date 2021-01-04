@@ -10,7 +10,7 @@ library(lubridate)
 # Changing working directory to where the data is.
 
 # Note, this **will** have to be changed when run on a different computer.
-my_data_dir <- "C:/Users/t_kag/OneDrive/Desktop/UHI/Introduction to R and Data Visualization/Intro_to_R_Data_Vis/data"
+my_data_dir <- "C:/data/"
 
 setwd(my_data_dir)
 
