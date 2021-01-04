@@ -39,10 +39,10 @@ This is a short course I took from November 2020 - January 2021 during the Coron
  7. [Creating a Shiny App](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%207/app.R)
  8. [Using Purrr to read and process datasets, and write reports](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/2020-12-31_Tutorial-8_Purr.R) and the [template](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Tutorial8.Rmd) for automated report writing like shown below:
 > * [Braemar report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Braemar.md)
-> * [Dunstaffnage Report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Dunstaffnage.md)
-> * [Nairn Report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Nairn.md)
-> * [Stornoway Report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Stornoway.md)
-> * [Tiree Report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Tiree.md)
+> * [Dunstaffnage report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Dunstaffnage.md)
+> * [Nairn report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Nairn.md)
+> * [Stornoway report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Stornoway.md)
+> * [Tiree report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Tiree.md)
 
 ### Assessments
   1. [Creating an obscure and hard to read figure with ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-01_Skills-Assessment.md)
