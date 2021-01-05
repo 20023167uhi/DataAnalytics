@@ -71,7 +71,7 @@ This is the first course I sat with regards to Data Science. It is a course host
 16. [Principle Component Analysis](https://github.com/20023167uhi/DataAnalytics/#16-principle-component-analysis)
 17. [Natural Language Processing](https://github.com/20023167uhi/DataAnalytics/#17-natural-language-processing)
 18. [Big Data and Spark](https://github.com/20023167uhi/DataAnalytics/#18-big-data-and-spark)
-19. [Deep Learning](https://github.com/20023167uhi/DataAnalytics/#19-deep-learnning)
+19. [Deep Learning with Tensorflow](https://github.com/20023167uhi/DataAnalytics/#19-deep-learnning-with-tensorflow)
 
 ## 1. Python Refresher
 
@@ -229,7 +229,7 @@ Using pyspark to process big data using Amazon Web Services (AWS). Lambda expres
 2. [RDD Transformations and Actions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/03-RDD%20Transformations%20and%20Actions.ipynb)
 3. [My Neural Networks and Deep Learning Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/My%20Neural%20Nets%20and%20Deep%20Learning%20notes.ipynb)
 
-## 19. Deep Learning
+## 19. Deep Learning with Tensorflow
 
 Introduction to using Tensorflow and runnning sessions before using the MNIST dataset to make predictions.
 
