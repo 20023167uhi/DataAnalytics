@@ -44,10 +44,13 @@ This is a short course I took from November 2020 - January 2021 during the Coron
 > * [Stornoway report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Stornoway.md)
 > * [Tiree report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Tiree.md)
 
+9. [Joining Baseball Datasets](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%209/2021-01-06_Tutorial-9_Joining-Data.md)
+
 ### Assessments
   1. [Creating an obscure and hard to read figure with ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-01_Skills-Assessment.md)
   2. [Plot randomly generated fuel data using ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-10_Skills-Assessment-2.md)
   3. [Create a function in an R script that sums letters in a vector together based on their alphabet index value](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-15_Skills-Assessment-3.R)
+  4. [Shiny App to look at locally saved UK gov '.tsv' datasets](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/Assessment-ShinyApp/app.R)
 
 # Python for Data Science and Machine Learning
 
