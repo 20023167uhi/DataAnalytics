@@ -5,7 +5,7 @@ This is a repository for some of the Data Analytics projects I've been working i
 * [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/#scotlandis) - Certificate for Professional Development in Data Science
 * [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/#python-for-data-science-and-machine-learning)
 
-# Kaggle
+## Kaggle
 
 Kaggle is a data science community with a few [short courses](https://www.kaggle.com/learn/overview) in data science.
 
@@ -15,20 +15,20 @@ Kaggle is a data science community with a few [short courses](https://www.kaggle
 4. [Introduction to Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/2%20-%20Intro%20to%20Machine%20Learning/Untitled.ipynb)
 5. [Intermediate Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning.ipynb), and [Intermediate Machine Learning Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning%20Exercises.ipynb)
 
-# ScotlandIS
+## ScotlandIS
 
-### Data science Certificate for Professional Development
+#### Data science Certificate for Professional Development
 
 This is a short course I took from November 2020 - January 2021 during the Coronavirus with [ScotlandIS](https://www.scotlandis.com/apply-data/) and the University of Highlands and Islands. Working towards a Certificate for Professional Development seemed the best way to spend my time! The course was primarily focused on using *R* instead of *Python* however with my past experience with Python the assignment for *Data Analytics on the Web* I was allowed to write it in Python.
 
-## Data Analytics on the Web
+### Data Analytics on the Web
 
 1. [Assignment 1](https://github.com/20023167uhi/DataAnalytics/blob/main/Data%20Analytics%20on%20the%20Web/Assignment%201/DataAnalyticsOnTheWebAssignment.ipynb) - Selecting and cleaning collision and weather data of New York from BigQuery.
 2. [Assignment 2](#) - Linear Regression and Deep Learning Neural Networks of data from Assignment 1 (to be completed) 
 
-## Introduction to R and Data Visualization
+### Introduction to R and Data Visualization
 
-### Tutorials
+#### Tutorials
  
  1. [Getting started with ggplot2](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%201/2020-11-13_Part-1-Getting-Started-ggplot2_TomBlackwood.md)
  2. [Manipulating data with dplyr](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%202/2020-11-11_Tutorial-2_Manipulating-data-with-dplyr.md) (Note: Last plot does not render in Markdown but does in HTML)
@@ -46,13 +46,13 @@ This is a short course I took from November 2020 - January 2021 during the Coron
 
 9. [Joining Baseball Datasets](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%209/2021-01-06_Tutorial-9_Joining-Data.md)
 
-### Assessments
+#### Assessments
   1. [Creating an obscure and hard to read figure with ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-01_Skills-Assessment.md)
   2. [Plot randomly generated fuel data using ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-10_Skills-Assessment-2.md)
   3. [Create a function in an R script that sums letters in a vector together based on their alphabet index value](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-15_Skills-Assessment-3.R)
   4. [Shiny App to look at locally saved UK gov '.tsv' datasets](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/Assessment-ShinyApp/app.R)
 
-# Python for Data Science and Machine Learning
+## Python for Data Science and Machine Learning
 
 This is the first course I sat with regards to Data Science. It is a course hosted on [Udemy](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/). A shortlist of topics is listed below with links to a more detailed list that links to my exercises.
 
@@ -76,14 +76,14 @@ This is the first course I sat with regards to Data Science. It is a course host
 18. [Big Data and Spark](https://github.com/20023167uhi/DataAnalytics/#18-big-data-and-spark)
 19. [Deep Learning with Tensorflow](https://github.com/20023167uhi/DataAnalytics/#19-deep-learnning-with-tensorflow)
 
-## 1. Python Refresher
+### 1. Python Refresher
 
 A short course just to go over some very basics of Python
 
 1. [A Python Crash Course](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/01-Python-Crash-Course/01-Python%20Crash%20Course.ipynb) and [Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/01-Python-Crash-Course/02-Python%20Crash%20Course%20Exercises.ipynb)
 2. [Lambda Expressions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/02-Lambda%20Expressions.ipynb)
 
-## 2. Numpy
+### 2. Numpy
 
 A refresher on Numpy to make sure the student (me) and the teacher have the same understanding!
 
@@ -93,7 +93,7 @@ A refresher on Numpy to make sure the student (me) and the teacher have the same
 4. [Numpy Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/02-Python-for-Data-Analysis-NumPy/04-Numpy%20Exercises.ipynb),
 5. [My Numpy Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/02-Python-for-Data-Analysis-NumPy/Data%20Analysis%20and%20Numpy%20notes.ipynb) 
 
-## 3. Pandas
+### 3. Pandas
 
 An introduction to Pandas for me!
 
@@ -109,7 +109,7 @@ An introduction to Pandas for me!
 10. [Pandas Ecommerce Purchases Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/04-Pandas-Exercises/03-Ecommerce%20Purchases%20Exercise%20.ipynb)
 11. [My Pandas Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/03-Python-for-Data-Analysis-Pandas/Pandas%20notes.ipynb)
 
-## 4. Data visualization with Matplotlib
+### 4. Data visualization with Matplotlib
 
 An introduction to Matplotlib and how to use it to render plots.
 
@@ -118,7 +118,7 @@ An introduction to Matplotlib and how to use it to render plots.
 3. [Advanced Matplotlib Concepts Lecture](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/05-Data-Visualization-with-Matplotlib/04-Advanced%20Matplotlib%20Concepts.ipynb)
 4. [My Matplotlib Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/05-Data-Visualization-with-Matplotlib/Matplotlib%20notes.ipynb)
 
-## 5. Data visualization with Seaborn
+### 5. Data visualization with Seaborn
 
 Seaborn is like a modified Matplotlib which can render plots slightly nicer!
 
@@ -131,7 +131,7 @@ Seaborn is like a modified Matplotlib which can render plots slightly nicer!
 7. [Seaborn Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/06-Data-Visualization-with-Seaborn/07-Seaborn%20Exercises.ipynb)
 8. [My Seaborn Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/06-Data-Visualization-with-Seaborn/My%20Seaeborn%20Plot%20Notes.ipynb)
 
-## 6. Pandas Built-in Data Visualization
+### 6. Pandas Built-in Data Visualization
 
 A look at some of the built in data visualization functions fo python
 
@@ -139,14 +139,14 @@ A look at some of the built in data visualization functions fo python
 2. [Pandas Data Visualization Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/07-Pandas-Built-in-Data-Viz/02-Pandas%20Data%20Visualization%20Exercise.ipynb)
 3. [My Pandas Built-in Data Visualization Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/07-Pandas-Built-in-Data-Viz/My%20Pandas%20Data%20Visualization%20notes.ipynb)
 
-## 7. Plotly and Cufflinks
+### 7. Plotly and Cufflinks
 
 Plotly and cufflinks create interactive plots rather than the static imaging of Matplotlib and Seaborn
 
 1. [Plotly and Cufflinks](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/08-Plotly-and-Cufflinks/01-Plotly%20and%20Cufflinks.ipynb)
 2. [Plotly and Cufflinks Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/08-Plotly-and-Cufflinks/My%20Plotly%20and%20Cufflinks%20Notes.ipynb)
 
-## 8. Geographical Plotting
+### 8. Geographical Plotting
 
 Plotting data out on maps!
 
@@ -154,14 +154,14 @@ Plotting data out on maps!
 2. [Choropleth Map Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/09-Geographical-Plotting/02-Choropleth%20Maps%20Exercise.ipynb)
 3. [My Geographical Plotting Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/09-Geographical-Plotting/My%20Geographical%20Plotting%20Notes.ipynb)
 
-## 9. Data Capstone Projects
+### 9. Data Capstone Projects
 
 A project to have a look at 911 Calls and plotting stocks data based on banking information.
 
 1. [911 Calls Capstone Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/10-Data-Capstone-Projects/01-911%20Calls%20Data%20Capstone%20Project.ipynb)
 2. [Financial Data Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/10-Data-Capstone-Projects/03-Finance%20Project.ipynb)
 
-## 10. Linear Regression
+### 10. Linear Regression
 
 Using the linear regression model to make predictions on realestate data based on average income, average house age, average number of rooms in area, average number of bedrooms in area, and area population to predict price.
 
@@ -169,7 +169,7 @@ Using the linear regression model to make predictions on realestate data based o
 2. [Linear Regression Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/11-Linear-Regression/02-Linear%20Regression%20Project.ipynb)
 3. [My Linear Regression Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/11-Linear-Regression/Linear%20Regression%20notes.ipynb)
 
-## 11. Logistic Regression
+### 11. Logistic Regression
 
 Using the logistic regression model to make predictions on the titanic dataset to try and predict if passengers survived or not based on passenger id, class, age, siblings/spouses on board, parent or child on board, fare, sex based on if they're male or not, and whether they got on at Cherborg, Queenstown, or Southampton.
 
@@ -177,7 +177,7 @@ Using the logistic regression model to make predictions on the titanic dataset t
 2. [Logistic Regression Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/13-Logistic-Regression/02-Logistic%20Regression%20Project.ipynb)
 3. [My Logistic Regression Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/13-Logistic-Regression/My%20Logistic%20Regression%20notes.ipynb)
 
-## 12. K Nearest Neighbours
+### 12. K Nearest Neighbours
 
 Using k nearest neighbours to make predictions on a dataset with classified data. Given a set of values with a target, the values can be used to train a model to recognize if a certain set of values are true or not.
 
@@ -185,7 +185,7 @@ Using k nearest neighbours to make predictions on a dataset with classified data
 2. [K Nearest Neighbours Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/14-K-Nearest-Neighbors/02-K%20Nearest%20Neighbors%20Project.ipynb)
 3. [My K Nearest Neighbours Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/14-K-Nearest-Neighbors/My%20K%20Nearest%20Neighbours%20notes.ipynb)
 
-## 13. Decision Trees and Random Forests
+### 13. Decision Trees and Random Forests
 
 Seeing the difference between a decision tree and a random forest to make predictions on data. Using a Kyphosis, the rounding or hunching of the back, dataset to make predictions based on the presence of it, age, a number and a starting value.
 
@@ -193,7 +193,7 @@ Seeing the difference between a decision tree and a random forest to make predic
 2. [Decision Trees and Random Forests Projects](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/15-Decision-Trees-and-Random-Forests/02-Decision%20Trees%20and%20Random%20Forest%20Project.ipynb)
 3. [My Decision Tree Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/15-Decision-Trees-and-Random-Forests/My%20Decision%20Tree%20Notes.ipynb)
 
-## 14. Support Vector Machines
+### 14. Support Vector Machines
 
 Using Breast Cancer Wisconsin (Diagnostic) Database data to try and make predictions based on characteristics described by the cell nuclei present in an image.
 
@@ -201,7 +201,7 @@ Using Breast Cancer Wisconsin (Diagnostic) Database data to try and make predict
 2. [Support Vector Machines Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/16-Support-Vector-Machines/02-Support%20Vector%20Machines%20Project.ipynb)
 3. [My Support Vector Machines Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/16-Support-Vector-Machines/Support%20Vector%20Machine%20Notes.ipynb)
 
-## 15. K-Means Clustering
+### 15. K-Means Clustering
 
 Looking at randomly generated clustered blobs of data points to make predictions.
 
@@ -209,14 +209,14 @@ Looking at randomly generated clustered blobs of data points to make predictions
 2. [K Means Clustering Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/17-K-Means-Clustering/02-K%20Means%20Clustering%20Project.ipynb)
 3. [My K Means Clustering Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/17-K-Means-Clustering/My%20K-Means%20Clustering%20Notes.ipynb)
 
-## 16. Principle Component Analysis
+### 16. Principle Component Analysis
 
 Principle component analysis is a transformation of the data and an unsupervised learning algorithm. The Breast Cancer Wisconsin (Diagnostic) Database was again used to try and make predictions based on components that best describe the data by variance.
 
 1. [Principle Component Analysis](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/18-Principal-Component-Analysis/01-Principal%20Component%20Analysis.ipynb)
 2. [My Principle Component Analysis Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/18-Principal-Component-Analysis/My%20Principle%20Component%20Analysis%20(PCA)%20notes.ipynb)
 
-## 17. Natural Language Processing
+### 17. Natural Language Processing
 
 Natural Language Processing will use machine learning with spam text samples and Yelp to filter content by relevance.
 
@@ -224,7 +224,7 @@ Natural Language Processing will use machine learning with spam text samples and
 2. [NLP Project](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/20-Natural-Language-Processing/02-NLP%20Project.ipynb)
 3. [My NLP Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/20-Natural-Language-Processing/My%20Natural%20Language%20Processing%20notes.ipynb)
 
-## 18. Big Data and Spark
+### 18. Big Data and Spark
 
 Using pyspark to process big data using Amazon Web Services (AWS). Lambda expressions are then used to map and transform Resilient Distributed Datasets (RDD). 
 
@@ -232,7 +232,7 @@ Using pyspark to process big data using Amazon Web Services (AWS). Lambda expres
 2. [RDD Transformations and Actions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/03-RDD%20Transformations%20and%20Actions.ipynb)
 3. [My Neural Networks and Deep Learning Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/My%20Neural%20Nets%20and%20Deep%20Learning%20notes.ipynb)
 
-## 19. Deep Learning with Tensorflow
+### 19. Deep Learning with Tensorflow
 
 Introduction to using Tensorflow and runnning sessions before using the MNIST dataset to make predictions.
 
