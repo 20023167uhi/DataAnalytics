@@ -37,7 +37,7 @@ This is a short course I took from November 2020 - January 2021 during the Coron
  5. [If, for, and while functions](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%205/2020-11-30_Tutorial-5_If-For-and-While-Functions.md)
  6. [Functions](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%206/2020-12-2_Tutorial-6_Functions.md)
  7. [Creating a Shiny App](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%207/app.R)
- 8. [Using Purrr to read and process datasets, and write reports](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/2020-12-31_Tutorial-8_Purr.R) and the [template](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Tutorial8.Rmd) for automated report writing like shown below:
+ 8. [Using Purrr to read and process datasets, and automate report writing](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/2020-12-31_Tutorial-8_Purr.R) using this [template](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Tutorial8.Rmd) for the automated report writing to create the shown below:
 > * [Braemar report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Braemar.md)
 > * [Dunstaffnage report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Dunstaffnage.md)
 > * [Nairn report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Nairn.md)
