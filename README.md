@@ -1,4 +1,4 @@
-# DataAnalytics
+# My Data Analytics and Machine Learning projects
 This is a repository for some of the Data Analytics projects I've been working in Python and R. The repository is generally grouped into 3 sets with respect to who I've been studying with. The three groups are:
 
 * [Kaggle](https://github.com/20023167uhi/DataAnalytics/#kaggle)
