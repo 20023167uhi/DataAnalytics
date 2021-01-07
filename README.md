@@ -32,7 +32,7 @@ This is a short course I took from November 2020 - January 2021 during the Coron
  
  1. [Getting started with ggplot2](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%201/2020-11-13_Part-1-Getting-Started-ggplot2_TomBlackwood.md)
  2. [Manipulating data with dplyr](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%202/2020-11-11_Tutorial-2_Manipulating-data-with-dplyr.md) (Note: Last plot does not render in Markdown but does in HTML)
- 3. [Reading-in data - dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%203/2020-11-23_Tutorial-3_Reading-in-data-dates-and-strings.md)
+ 3. [Reading and writing data, factors and levels, and long and wide](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%203/2020-11-23_Tutorial-3_Reading-in-data-dates-and-strings.md)
  4. [Reading dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%204/2020-11-23_Tutorial-4_Reading-dates-and-strings.md)
  5. [If, for, and while functions](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%205/2020-11-30_Tutorial-5_If-For-and-While-Functions.md)
  6. [Functions](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%206/2020-12-2_Tutorial-6_Functions.md)
@@ -71,7 +71,7 @@ This is the first course I sat with regards to Data Science. It is a course host
 16. [Principle Component Analysis](https://github.com/20023167uhi/DataAnalytics/#16-principle-component-analysis)
 17. [Natural Language Processing](https://github.com/20023167uhi/DataAnalytics/#17-natural-language-processing)
 18. [Big Data and Spark](https://github.com/20023167uhi/DataAnalytics/#18-big-data-and-spark)
-19. [Deep Learning](https://github.com/20023167uhi/DataAnalytics/#19-deep-learnning)
+19. [Deep Learning with Tensorflow](https://github.com/20023167uhi/DataAnalytics/#19-deep-learnning-with-tensorflow)
 
 ## 1. Python Refresher
 
@@ -229,7 +229,7 @@ Using pyspark to process big data using Amazon Web Services (AWS). Lambda expres
 2. [RDD Transformations and Actions](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/03-RDD%20Transformations%20and%20Actions.ipynb)
 3. [My Neural Networks and Deep Learning Notes](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Udemy%20Python%20Data%20Science%20and%20Machine%20Learning/21-Big-Data-and-Spark/My%20Neural%20Nets%20and%20Deep%20Learning%20notes.ipynb)
 
-## 19. Deep Learning
+## 19. Deep Learning with Tensorflow
 
 Introduction to using Tensorflow and runnning sessions before using the MNIST dataset to make predictions.
 
