@@ -23,7 +23,7 @@ This is a short course I took from November 2020 - January 2021 during the Coron
 
 ### Data Analytics on the Web
 
-1. [Assignment 1](https://github.com/20023167uhi/DataAnalytics/blob/main/Data%20Analytics%20on%20the%20Web/Assignment%201/DataAnalyticsOnTheWebAssignment.ipynb) - Selecting and cleaning collision and weather data of New York from BigQuery.
+1. [Assignment 1](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Data%20Analytics%20on%20the%20Web/Assignment%201/DataAnalyticsOnTheWebAssignment.ipynb) - Selecting and cleaning collision and weather data of New York from BigQuery.
 2. [Assignment 2](#) - Linear Regression and Deep Learning Neural Networks of data from Assignment 1 (to be completed) 
 
 ### Introduction to R and Data Visualization
