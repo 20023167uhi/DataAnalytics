@@ -30,13 +30,15 @@ bat_sal_dat <- Batting %>%
 p1 <- ggplot(bat_sal_dat, aes(x = HR, y = salary, colour = RBI)) + 
   geom_point() + 
   labs(x = "Home Runs", y = "Salary") + 
-  scale_y_continuous(labels = dollar_format())
+  scale_y_continuous(labels = dollar_format()) + 
+  scale_colour_viridis_c()
 
 # Second plot about Runs Batted In vs Salary
 p2 <- ggplot(bat_sal_dat, aes(x = RBI, y = salary, colour = HR)) + 
   geom_point() + 
   labs(x = "Runs Batted In", y = "Salary") + 
-  scale_y_continuous(labels = dollar_format())
+  scale_y_continuous(labels = dollar_format()) + 
+  scale_colour_viridis_c()
 
 p1 / p2
 ```
@@ -67,13 +69,15 @@ pit_sal_dat <- Pitching %>%
 p1 <- ggplot(pit_sal_dat, aes(x = ERA, y = salary, colour = W)) + 
   geom_point() + 
   labs(x = "Earned Run Average", y = "Salary") + 
-  scale_y_continuous(labels = dollar_format())
+  scale_y_continuous(labels = dollar_format()) + 
+  scale_colour_viridis_c()
 
 # Plot of Wins vs Salary.
 p2 <- ggplot(pit_sal_dat, aes(x = W, y = salary, colour = ERA)) + 
   geom_point() + 
   labs(x = "Wins", y = "Salary") + 
-  scale_y_continuous(labels = dollar_format())
+  scale_y_continuous(labels = dollar_format()) + 
+  scale_colour_viridis_c()
 
 p1 / p2
 ```
@@ -93,27 +97,23 @@ A `left_join(.)` was used which matched the `playerID`s with both
 dataframes and ignores the other player rows.
 
 ``` r
-bat_pitch <- Batting %>%
-  right_join(Pitching) %>%
-  filter(., HR > 20 & GS > 5) %>%
-  left_join(., People)
+bat_pitch <- select(Batting, playerID, yearID, HR) %>%
+  left_join(select(Pitching, playerID, yearID, GS)) %>%
+  filter(HR > 20 & GS > 5) %>%
+  left_join(select(People, playerID, nameFirst, nameLast))
 ```
 
-    ## Joining, by = c("playerID", "yearID", "stint", "teamID", "lgID", "G", "R", "H", "HR", "BB", "SO", "IBB", "HBP", "SH", "SF", "GIDP")
+    ## Joining, by = c("playerID", "yearID")
 
     ## Joining, by = "playerID"
 
 ``` r
-head(select(bat_pitch, playerID, nameFirst, nameLast, nameGiven, HR, GS))
+head(select(bat_pitch, playerID, nameFirst, nameLast, HR, GS))
 ```
 
-    ##    playerID nameFirst nameLast     nameGiven HR GS
-    ## 1 corcola01     Larry Corcoran   Lawrence J. 35 59
-    ## 2 galvipu01       Pud   Galvin James Francis 23 72
-    ## 3 seradbi01     Billy    Serad    William I. 21 37
-    ## 4 clarkjo01      John Clarkson   John Gibson 21 70
-    ## 5 baldwma01      Mark  Baldwin Marcus Elmore 22 39
-    ## 6 getzich01  Pretzels  Getzien    Charles H. 24 42
+    ##    playerID nameFirst nameLast HR GS
+    ## 1  ruthba01      Babe     Ruth 29 15
+    ## 2 ohtansh01    Shohei   Ohtani 22 10
 
 ## 3\. Joining `Salaries` with `SeriesPost`
 
@@ -176,7 +176,8 @@ p1 <- ggplot(winners_sal, aes(x = sum_sal, y = mean_sal, colour = yearID)) +
   geom_point() +
   labs(x = "Sum of Salaries for Annum", y = "Mean of Salaries for Annum") + 
   scale_x_continuous(labels = dollar_format()) +
-  scale_y_continuous(labels = dollar_format())
+  scale_y_continuous(labels = dollar_format()) + 
+  scale_colour_viridis_c()
 
 p2 <- ggplot(winners_sal, aes(x = yearID, y = mean_sal)) + 
   geom_line() + 

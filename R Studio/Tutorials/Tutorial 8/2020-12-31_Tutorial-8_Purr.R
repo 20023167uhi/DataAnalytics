@@ -10,7 +10,7 @@ library(lubridate)
 # Changing working directory to where the data is.
 
 # Note, this **will** have to be changed when run on a different computer.
-my_data_dir <- "C:/data/"
+my_data_dir <- "C:/Users/t_kag/OneDrive/Desktop/UHI/Introduction to R and Data Visualization/Intro_to_R_Data_Vis/data"
 
 setwd(my_data_dir)
 
@@ -113,7 +113,7 @@ render_report <- function(df){
       data = df
     ),
     # Set the output filenames to be written.
-    output_file = paste0("Report-", station, ".html")
+    output_file = paste0("Report-", station, ".md")
   )
   # Move back to the data directory.
   setwd("../../data/")

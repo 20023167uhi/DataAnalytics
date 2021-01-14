@@ -9,10 +9,6 @@ This is an R Markdown document is part of a series of reports made to
 plot weather data from various train stations. This document hosts the
 data from the data frame below.
 
-``` r
-head(params$data)
-```
-
     ## # A tibble: 6 x 10
     ##   station  yyyy    mm `tmax (degC)` `tmin (degC)` `af (days)` `rain (mm)` `sun (hours)`    X8
     ##   <chr>   <dbl> <dbl>         <dbl>         <dbl>       <dbl>       <dbl>         <dbl> <dbl>
@@ -25,10 +21,5 @@ head(params$data)
     ## # ... with 1 more variable: date <date>
 
 And plots like the following for `tmax (degC)` vs `date` can be made:
-
-``` r
-ggplot(params$data, aes(x = date, y = `tmax (degC)`, colour = yyyy)) + 
-  geom_line()
-```
 
 ![](Report-Braemar_files/figure-gfm/plot_weather-1.png)<!-- -->
