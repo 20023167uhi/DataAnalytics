@@ -1,0 +1,142 @@
+---
+title: "Tutorial 10 - Regular Expressons"
+author: "Tom Blackwood"
+date: "08/01/2021"
+output: 
+  # html_document
+  rmarkdown:: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, # Print each bit of code or not
+                      eval = TRUE, # Run each bit of code or not
+                      comment = NA, # Prefix to data printed from code
+                      message = FALSE, # Print messages
+                      warning = FALSE) # Print warnings.
+library(dplyr)
+library(lubridate)
+library(purrr)
+library(stringr)
+library(tidyverse)
+library(tools)
+```
+
+## 1. Loading dataset
+
+The small regular expression dataset was loaded, and the dataframe is as shown below.
+
+```{r the_dataframe, echo=FALSE}
+# Importing data
+reg_exp <- read_csv("../../data/reg_exp_test.csv")
+# Show what dataframe looks like
+reg_exp
+```
+
+Using `str_detect` the `" "` value, entries in column 3 which have a space can be detected.  
+
+```{r space_rows, echo=FALSE}
+# Use str_detect to filter out column values that have a space
+col3_sp <- reg_exp$col3[str_detect(reg_exp$col3," ")]
+# Show values
+col3_sp
+```
+### 1.1 Finding entries with at least 2 letters
+
+The `map_df` function was used with `str_count` expressing the values to be counted that exist from capital A to lower case z, or `[A-z]`. After that the values were filtered to replace those less than 2 with `NA`.
+
+```{r has_2_letters, echo=FALSE}
+
+vec_fil <- reg_exp
+# Using speed-apply to run a function on every column to detect where the
+# conditions are false and set them to NA.
+vec_fil <- sapply(reg_exp, FUN = function(x){
+  x[str_detect(x, "[A-z]{1,2}? *[A-z]{1,2}") == FALSE] <- NA
+  return(x)
+  })
+
+vec_fil
+```
+### 1.2 Finding entries that start with more than 2 letters
+
+The `map_df` was again used to make a `str_count` but the filter conditions were set to `^[A-z]{2}`. The `^` ensures that the first letters of the element conform to the following requirement of being between the symbols of `[A-z]`. Lastly the `{2}` tells the function that it is looking for 2 elements within the specification of `[A-z]`.
+
+```{r starts_2_letters, echo=FALSE}
+# Finding expressions that lead with 2 characters
+# Using speed-apply to run a function on every column to detect where the
+# conditions are false and set them to NA.
+vec_fil <- sapply(reg_exp, FUN = function(x){
+  x[str_detect(x, "^[A-z]{2}") == FALSE] <- NA
+  return(x)
+  })
+vec_fil
+
+```
+### 1.3 Finding elements with 3 numerics.
+
+This is similar to 1.1 above where the characters were counted but this time the specification is `[0-9]`, or from 0 to 9.
+
+```{r has_3_numbers, echo=FALSE}
+# Making a count of numerics
+vec_fil <- sapply(reg_exp, FUN = function(x){
+  x[str_count(x, "[0-9]") < 4] <- NA
+  return(x)
+  })
+print(vec_fil)
+
+```
+
+## 2. Reading in the weather datasets for `regex` to clean.
+
+The function written to clean the weather station datasets was modified to include the regular ex(pression functions for cleaning. `str_remove()` was used to remove the special characters `*` and `#`. `str_detect()` was used to find where the condition of where the appearance of `[0-9]` was `FALSE` and set it to `NA`. Lastly the dataset was set to `as.numeric()` before the set was returned.
+
+```{r weather_regex, echo=FALSE}
+
+# Modified cleaning data
+clean_data_local <- function(x){
+          # Removing special characters from strings
+          x <- str_remove(x, '\\*|\\#')
+          # Setting non-numerics to NA
+          x[str_detect(x, "[0-9]") == FALSE] <- NA
+          # Converting numerical characters to numerics.
+          x <- as.numeric(x)
+          # Return value
+          return(x)
+        }
+
+# Get a list of files
+weather_files <- list.files(path = "../../data/", pattern = "*_raw.tsv")
+# Add the address for the directory to file
+weather_files <- str_c("../../data/", weather_files)
+
+# Read in the files, set the filenames to the station column and remove X8
+weather_df <- weather_files %>%
+  # Set names.
+  set_names() %>%
+  # Map in the files to a dataframe
+  map_df(read_tsv, .id = "station") %>%
+  # Deselecting X8
+  select(-X8)
+
+# Clean off the working directory, the '_raw.tsv' and convert to title case
+weather_df$station <- str_remove(weather_df$station, pattern = "^../../data/")
+weather_df$station <- str_remove(weather_df$station, pattern = "_raw.tsv$")
+weather_df$station <- toTitleCase(weather_df$station)
+
+# Get a list of names for what is to be processed
+weather_names <- names(select(weather_df, -station, -yyyy, -mm))
+
+# Apply cleaning function to selected columns to and return them to same columns
+weather_df[weather_names] <- sapply(weather_df[weather_names], FUN=clean_data_local)
+
+head(select(weather_df, -yyyy, -mm))
+# weather_files
+```
+
+
+```{r, fig.cap = "Figure 1: The figure caption."}
+plot(pressure)
+```
+
+```{r jane_austin, echo=FALSE}
+
+```
