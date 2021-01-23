@@ -31,7 +31,7 @@ This is a short course I took from November 2020 - January 2021 during the Coron
 #### Tutorials
  
  1. [Getting started with ggplot2](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%201/2020-11-13_Part-1-Getting-Started-ggplot2_TomBlackwood.md)
- 2. [Manipulating data with dplyr](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%202/2020-11-11_Tutorial-2_Manipulating-data-with-dplyr.md) (Note: Last plot does not render in Markdown but does in HTML)
+ 2. [Manipulating data with dplyr](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%202/2020-11-11_Tutorial-2_Manipulating-data-with-dplyr.md) (Note: Last plot is using leaflet that requires HTML. For markdown it has been replaced by a `.png`)
  3. [Reading and writing data, factors and levels, and long and wide](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%203/2020-11-23_Tutorial-3_Reading-in-data-dates-and-strings.md)
  4. [Reading dates and strings](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%204/2020-11-23_Tutorial-4_Reading-dates-and-strings.md)
  5. [If, for, and while functions](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%205/2020-11-30_Tutorial-5_If-For-and-While-Functions.md)
