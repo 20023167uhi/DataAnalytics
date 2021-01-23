@@ -10,7 +10,7 @@ always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
-# Show html plotly instead of image
+# For interactive html plots set to TRUE, doesn't work for .md
 is_html = FALSE
 
 knitr::opts_chunk$set(echo = FALSE, # Print each bit of code or not
@@ -337,7 +337,7 @@ p2 <- plot_ly(
     # Title plots
     title = "Culmulative cases and deaths by COVID-19 by country",
     xaxis = list(title = "Date"),
-    yaxis = list(title = "Cululative deaths"),
+    yaxis = list(title = "Culmulative deaths"),
     legend = list(title = list(text='Country')),
     # set width of plots
     width = 900
