@@ -111,6 +111,6 @@ p <- leaflet() %>%
 if (is_html){
   p
 } else {
-  knitr::include_graphics("figs/storms_plot.png")
+  knitr::include_graphics("figs/storms_plot.PNG")
 }
 ```

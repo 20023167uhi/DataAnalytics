@@ -178,4 +178,4 @@ Plotting the path of Tomas and Clara using GPS coordinates. Tomas is in
 Green and Clara in Red. (I haven’t yet worked out the `addLegend`
 function yet…)
 
-<img src="figs/storms_plot.png" width="75%" />
+<img src="figs/storms_plot.PNG" width="75%" />
