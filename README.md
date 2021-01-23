@@ -51,6 +51,7 @@ This is a short course I took from November 2020 - January 2021 during the Coron
   2. [Plot randomly generated fuel data using ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-10_Skills-Assessment-2.md)
   3. [Create a function in an R script that sums letters in a vector together based on their alphabet index value](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-15_Skills-Assessment-3.R)
   4. [Shiny App to look at locally saved UK gov '.tsv' datasets](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/Assessment-ShinyApp/app.R)
+  5. [Report - COVID-19: Age of Death in UK, US, and Globally](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/R%20Data%20Cleaning%20Essay/Essay-on-Covid-19-Mortality-rates-in-UK%2C-US%2C-and-Globally-with-respect-to-age.md)
 
 ## Python for Data Science and Machine Learning
 
