@@ -264,7 +264,7 @@ scot_mean_death_grp <- average_age_group(scot_df_plot_2)
 ```
 ### Main findings
 
-* The globally over 2020, `r glob_death_over_case`% of COVID-19 cases result in death.
+* Over 2020 `r glob_death_over_case`% of all COVID-19 cases in the world have resulted in death.
 * The average age group for deaths by COVID-19 in the US is `r us_mean_death_grp`, and `r us_death_over_cases`% of cases result in death. 
 * The average age group for deaths by COVID-19 in the UK is `r uk_mean_death_grp` years, and `r uk_death_over_cases`% of cases result in death.
 * The average age group for deaths by COVID-19 in the Scotland is `r scot_mean_death_grp`.

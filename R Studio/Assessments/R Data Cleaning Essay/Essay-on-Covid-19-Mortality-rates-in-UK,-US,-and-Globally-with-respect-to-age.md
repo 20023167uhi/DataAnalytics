@@ -5,7 +5,8 @@ Tom Blackwood - 20023167
 
 ### Main findings
 
-  - The globally over 2020, 2.2% of COVID-19 cases result in death.
+  - Over 2020 2.2% of all COVID-19 cases in the world have resulted in
+    death.
   - The average age group for deaths by COVID-19 in the US is 75-84
     years, and 1.7% of cases result in death.
   - The average age group for deaths by COVID-19 in the UK is 80-84
