@@ -4,8 +4,8 @@ author: "Tom Blackwood"
 date: "10/11/2020"
 always_allow_html: true
 output:
-  # rmarkdown:: github_document
-  html_document
+  rmarkdown:: github_document
+  # html_document
 ---
 
 ```{r setup, include=FALSE}
