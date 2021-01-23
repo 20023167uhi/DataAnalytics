@@ -4,13 +4,13 @@ author: "Tom Blackwood"
 date: "10/11/2020"
 always_allow_html: true
 output:
-  rmarkdown:: github_document
-  html_document:
-    df_print: paged
+  # rmarkdown:: github_document
+  html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+is_html = FALSE
 library(tidyverse)
 library(data.table)
 library(leaflet)
@@ -94,10 +94,10 @@ filter(storms, name == c("Tomas", "Clara")) %>%
 
 Plotting the path of Tomas and Clara using GPS coordinates. Tomas is in Green and Clara in Red. (I haven't yet worked out the `addLegend` function yet...)
 
-```{r storm_map, echo=FALSE}
+```{r storm_map, echo=FALSE, out.width = "75%"}
 coordsTomas <- select(filter(storms, name == "Tomas"), long, lat)
 coordsClara <- select(filter(storms, name == "Clara"), long, lat)
-leaflet() %>%
+p <- leaflet() %>%
   addTiles() %>%
   addPolylines(data = coordsTomas, lng = coordsTomas$long, lat = coordsTomas$lat, color="green") %>%
   addPolylines(data = coordsClara, lng = coordsClara$long, lat = coordsClara$lat, color="red") %>%
@@ -108,4 +108,9 @@ leaflet() %>%
     title = "Storm names"
   )
 
+if (is_html){
+  p
+} else {
+  knitr::include_graphics("figs/storms_plot.png")
+}
 ```
