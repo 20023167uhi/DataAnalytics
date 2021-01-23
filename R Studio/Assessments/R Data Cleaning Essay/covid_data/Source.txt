@@ -1,0 +1,11 @@
+deaths-involving-coronavirus-covid-19_[0-9]{1,2}-[0-9]{1,2}.csv
+https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fdeaths-involving-coronavirus-covid-19
+
+owid-covid-data.csv
+https://github.com/owid/covid-19-data/tree/master/public/data
+
+Covid-19 Deaths England and Wales - 
+https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales/2020
+
+Provisional_COVID-19_Death_Counts_by_Sex__Age__and_State - 
+https://healthdata.gov/dataset/provisional-covid-19-death-counts-sex-age-and-state

@@ -1,0 +1,17 @@
+"Mortality statistics - underlying cause, sex and age"
+
+
+ONS Crown Copyright Reserved,​,​
+​,​,​
+Date,2019,​
+Gender,Total,​
+Age,total (all ages),​
+Measure,Deaths,​
+​,​,​
+Country,"A00-R99,U00-Y89 All causes, all ages",J09-J11 Influenza
+Total mortality,"530,841","1,223"
+England,"496,370","1,160"
+Wales,"33,183",53
+England and Wales,"529,553","1,213"
+Resident outside England and Wales,"1,288",10
+
