@@ -131,12 +131,25 @@ weather_df[weather_names] <- sapply(weather_df[weather_names], FUN=clean_data_lo
 head(select(weather_df, -yyyy, -mm))
 # weather_files
 ```
-
-
-```{r, fig.cap = "Figure 1: The figure caption."}
-plot(pressure)
-```
-
+## Exerecise 3 - Optional: From Jane Austin's Library Selecting Character, a Year, a year but within the text of the novel.
 ```{r jane_austin, echo=FALSE}
+library(janeaustenr)
+
+texts = austen_books()
+
+characters = texts[str_detect(texts$text, "Darcy"),]
+
+print("Lines that contain 'Darcy':")
+print(characters)
+
+year = texts[str_detect(texts$text, "\\([0-9]{4}\\)"),]
+
+print("Publication years:")
+print(year)
+
+lines_containt_year = texts[str_detect(texts$text, "1[7-9]{1}[0-9]{2}"),]
+
+print("Lines that contain a year:")
+print(lines_containt_year)
 
 ```
