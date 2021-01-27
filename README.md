@@ -1,9 +1,9 @@
 # My Data Analytics and Machine Learning projects
 This is a repository for some of the Data Analytics projects I've been working in Python and R. The repository is generally grouped into 3 sets with respect to who I've been studying with. The three groups are:
 
-* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/#2020-scotlandis) - Certificate for Professional Development in Data Science
-* [Kaggle](https://github.com/20023167uhi/DataAnalytics/#2019-kaggle)
-* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/#2019-python-for-data-science-and-machine-learning)
+* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/#2020---scotlandis) - Certificate for Professional Development in Data Science
+* [Kaggle](https://github.com/20023167uhi/DataAnalytics/#2019---kaggle)
+* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/#2019---python-for-data-science-and-machine-learning)
 
 ## 2020 - ScotlandIS
 
