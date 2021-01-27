@@ -1,21 +1,11 @@
 # My Data Analytics and Machine Learning projects
 This is a repository for some of the Data Analytics projects I've been working in Python and R. The repository is generally grouped into 3 sets with respect to who I've been studying with. The three groups are:
 
-* [Kaggle](https://github.com/20023167uhi/DataAnalytics/#kaggle)
-* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/#scotlandis) - Certificate for Professional Development in Data Science
-* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/#python-for-data-science-and-machine-learning)
+* [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/#2020-scotlandis) - Certificate for Professional Development in Data Science
+* [Kaggle](https://github.com/20023167uhi/DataAnalytics/#2019-kaggle)
+* [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/#2019-python-for-data-science-and-machine-learning)
 
-## Kaggle
-
-Kaggle is a data science community with a few [short courses](https://www.kaggle.com/learn/overview) in data science.
-
-1. [Pandas](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/4%20-%20Pandas/Pandas%20notes.ipynb)
-2. [Data Cleaning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/12%20-%20Data%20Cleaning/Data%20Cleaning.ipynb)
-3. [Feature Engineering](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/5%20-%20Feature%20Engineering/Feature%20Engineering.ipynb)
-4. [Introduction to Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/2%20-%20Intro%20to%20Machine%20Learning/Untitled.ipynb)
-5. [Intermediate Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning.ipynb), and [Intermediate Machine Learning Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning%20Exercises.ipynb)
-
-## ScotlandIS
+## 2020 - ScotlandIS
 
 #### Data science Certificate for Professional Development
 
@@ -45,6 +35,7 @@ This is a short course I took from November 2020 - January 2021 during the Coron
 > * [Tiree report](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%208/Report-Tiree.md)
 
 9. [Joining Baseball Datasets](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%209/2021-01-06_Tutorial-9_Joining-Data.md)
+10. [Regular Expressions and String Detection](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Tutorials/Tutorial%2010/2021-01-08_Tutorial-10_Regular-Expressions.md)
 
 #### Assessments
   1. [Creating an obscure and hard to read figure with ggplot](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/2020-12-01_Skills-Assessment.md)
@@ -53,7 +44,17 @@ This is a short course I took from November 2020 - January 2021 during the Coron
   4. [Shiny App to look at locally saved UK gov '.tsv' datasets](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/Assessment-ShinyApp/app.R)
   5. [Report - COVID-19: Age of Death in UK, US, and Globally](https://github.com/20023167uhi/DataAnalytics/blob/main/R%20Studio/Assessments/R%20Data%20Cleaning%20Essay/Essay-on-Covid-19-Mortality-rates-in-UK%2C-US%2C-and-Globally-with-respect-to-age.md)
 
-## Python for Data Science and Machine Learning
+## 2019 - Kaggle
+
+Kaggle is a data science community with a few [short courses](https://www.kaggle.com/learn/overview) in data science.
+
+1. [Pandas](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/4%20-%20Pandas/Pandas%20notes.ipynb)
+2. [Data Cleaning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/12%20-%20Data%20Cleaning/Data%20Cleaning.ipynb)
+3. [Feature Engineering](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/5%20-%20Feature%20Engineering/Feature%20Engineering.ipynb)
+4. [Introduction to Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/2%20-%20Intro%20to%20Machine%20Learning/Untitled.ipynb)
+5. [Intermediate Machine Learning](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning.ipynb), and [Intermediate Machine Learning Exercises](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Kaggle/3%20-%20Intermediate%20Machine%20Learning/Intermediate%20Machine%20Learning%20Exercises.ipynb)
+
+## 2019 - Python for Data Science and Machine Learning
 
 This is the first course I sat with regards to Data Science. It is a course hosted on [Udemy](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/). A shortlist of topics is listed below with links to a more detailed list that links to my exercises.
 
