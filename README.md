@@ -10,8 +10,8 @@ This is a repository for some of the Data Analytics projects I've been working i
 
 These are some personal projects I created.
 
-[Personal Website 2 Ravens - News Aaggregator](https://www.2ravens.co.uk/)
-[Random Data Generator](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Personal%20Projects/Random%20Data%20Generator.ipynb)
+* [Personal Website 2 Ravens - News Aaggregator](https://www.2ravens.co.uk/)
+* [Random Data Generator](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Personal%20Projects/Random%20Data%20Generator.ipynb)
 
 ## 2020 - ScotlandIS
 
