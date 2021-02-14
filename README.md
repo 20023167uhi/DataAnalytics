@@ -1,9 +1,17 @@
 # My Data Analytics and Machine Learning projects
-This is a repository for some of the Data Analytics projects I've been working in Python and R. The repository is generally grouped into 3 sets with respect to who I've been studying with. The three groups are:
+This is a repository for some of the Data Analytics projects I've been working in Python and R. The repository is generally grouped with respect to who I've been studying with. The groups are:
 
+* [Personal Projects](https://github.com/20023167uhi/DataAnalytics/#personal-projects)
 * [ScotlandIS](https://github.com/20023167uhi/DataAnalytics/#2020---scotlandis) - Certificate for Professional Development in Data Science
 * [Kaggle](https://github.com/20023167uhi/DataAnalytics/#2019---kaggle)
 * [Python for Data Science and Machine Learning](https://github.com/20023167uhi/DataAnalytics/#2019---python-for-data-science-and-machine-learning)
+
+## Personal Projects
+
+These are some personal projects I created.
+
+[Personal Website 2 Ravens - News Aaggregator](https://www.2ravens.co.uk/)
+[Random Data Generator](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Personal%20Projects/Random%20Data%20Generator.ipynb)
 
 ## 2020 - ScotlandIS
 
