@@ -10,8 +10,13 @@ This is a repository for some of the Data Analytics projects I've been working i
 
 These are some personal projects I created.
 
-* [Personal Website 2 Ravens - News Aaggregator](https://www.2ravens.co.uk/)
-* [Random Data Generator](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Personal%20Projects/Random%20Data%20Generator.ipynb)
+### [2 Ravens - News Aaggregator](https://www.2ravens.co.uk/)
+
+This is my personal website that I put together to read data from RSS feeds and compile the feed into a reddit-style list of elements on the web page. There are features to filter the news stories by source and type (Top Stories, Politics, World, Education, Health, Science, Sports...). It also has a light search function I'm working on improving and also tries to put a location on news stories based on location mentions in the title of the story. The titles are also broken into a list of words and counted and the top 5 occurring words are posted to the website.
+
+### [Random Data Generator](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Personal%20Projects/Random%20Data%20Generator.ipynb)
+
+This is a small project to randomly create some data based on the probability distribution of a series of data. The function is tested on weather data but it is limited in that the data generated doesn't neccessarily have a correlation to each other unlike how it might do in a real worldly condition. 
 
 ## 2020 - ScotlandIS
 
