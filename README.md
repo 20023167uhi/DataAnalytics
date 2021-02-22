@@ -16,7 +16,7 @@ This is my personal website that I put together to read data from RSS feeds and 
 
 ### [Mesa Agent Based Modelling](https://www.2ravens.co.uk/mesa/)
 
-This is a little application I adapted from the [Mesa Agent Based Modelling Library](https://mesa.readthedocs.io/en/stable/) to run on django instead of a local server based on Python's Tornado. It models a virus being passed around starting from one infected. The probability of catching the virus is high but the probability of death is based on the individual agent's age. There are a few elements to play with in the simulation: Number of agents, size of the domain, and length of the simulation.
+This is a little application I adapted from the [Mesa Agent Based Modelling Library](https://mesa.readthedocs.io/en/stable/) to run on Django instead of a local server based on Python's Tornado. It models a virus being passed around starting from one infected. The probability of catching the virus is high but the probability of death is based on the individual agent's age. There are a few elements to play with in the simulation: Number of agents, size of the domain, and length of the simulation.
 
 ### [Random Data Generator](https://github.com/20023167uhi/DataAnalytics/blob/main/Python/Personal%20Projects/Random%20Data%20Generator.ipynb)
 
